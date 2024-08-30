@@ -103,20 +103,20 @@ Table 1. The types and numbers of substituents contained in PubChem compounds
 
 | WURCS(MAP)               | Count | Category |                                 |
 |--------------------------|-------|----------|---------------------------------|
-| `*`                        | 72733 | Not SNFG | anhydro                         |
-| `*OC(CCCCCC$4)`            | 54674 | Not SNFG | Bn                              |
-| `*OCO*/3C/3C`              | 31389 | Not SNFG | O,O-2-propylidene               |
-| `*C`                       | 27037 | Not SNFG | methylation                     |
-| `*OC(CCCCCC$4)/3=O`        | 21141 | Not SNFG | Bz                              |
-| `*N=N=N`                   | 13058 | Not SNFG | azido                           |
-| `*OC^XO*/3(CCCCCC$6)`      | 7256  | Not SNFG | benxylidene                     |
-| `*OCCCC`                   | 4775  | Not SNFG | O-nBu                           |
-| `*OC(CCCCCC$4/7)OC`        | 3723  | Not SNFG | O-benzyl-4-O-methyl             |
-| `*CO`                      | 3365  | Not SNFG | C-hydroxymethyl                 |
-| `*OC^RO*/3(CCCCCC$6)`      | 3186  | Not SNFG | (1R)-benzylidene                |
-| `*OS(CCCCCC$4/7)C/3=O/3=O` | 3040  | Not SNFG | O-thio-benzyl-4-hydroxycarbonyl |
-| `*OCC=C`                   | 2719  | Not SNFG | O-allyl                         |
-| `*OSC/3=O/3=O`             | 2649  | Not SNFG | S-C-Me                          |
+| \*                        | 72733 | Not SNFG | anhydro                         |
+| \*OC(CCCCCC$4)            | 54674 | Not SNFG | Bn                              |
+| \*OCO\*/3C/3C              | 31389 | Not SNFG | O,O-2-propylidene               |
+| \*C                       | 27037 | Not SNFG | methylation                     |
+| \*OC(CCCCCC$4)/3=O        | 21141 | Not SNFG | Bz                              |
+| \*N=N=N                   | 13058 | Not SNFG | azido                           |
+| \*OC^XO\*/3(CCCCCC$6)      | 7256  | Not SNFG | benxylidene                     |
+| \*OCCCC                   | 4775  | Not SNFG | O-nBu                           |
+| \*OC(CCCCCC$4/7)OC        | 3723  | Not SNFG | O-benzyl-4-O-methyl             |
+| \*CO                      | 3365  | Not SNFG | C-hydroxymethyl                 |
+| \*OC^RO\*/3(CCCCCC$6)      | 3186  | Not SNFG | (1R)-benzylidene                |
+| \*OS(CCCCCC$4/7)C/3=O/3=O | 3040  | Not SNFG | O-thio-benzyl-4-hydroxycarbonyl |
+| \*OCC=C                   | 2719  | Not SNFG | O-allyl                         |
+| \*OSC/3=O/3=O             | 2649  | Not SNFG | S-C-Me                          |
 | …             | …  | …  | …                          |
 
   - MAP is a modification representation in WURCS notation
