@@ -9,44 +9,44 @@ tags:
   - Software
   - WURCS
 authors:
-  - name: Kiyoko F. Aoki-Kinoshita
-    orcid: 0000-0002-6662-8015
+  - name: Issaku Yamada
+    orcid: 0000-0001-9504-189X
     affiliation: 1
   - name: Evan Bolton
     orcid: 0000-0002-5959-6190
     affiliation: 2
-  - name: Issaku Yamada
-    orcid: 0000-0001-9504-189X
-    affiliation: 3
   - name: Nathan John Edwards
     orcid: 
+    affiliation: 3
+  - name: Masaaki Matsubara
+    orcid: 0000-0001-6809-1568
+    affiliation: 1
+  - name: Masae Hosoda
+    orcid: 0000-0002-4750-4041
     affiliation: 4
   - name: Akihiro Fujita
     orcid: 0000-0003-3748-7791
     affiliation: 5
-  - name: Masaaki Matsubara
-    orcid: 0000-0001-6809-1568
-    affiliation: 3
-  - name: Masae Hosoda
-    orcid: 0000-0002-4750-4041
-    affiliation: 6
   - name: Yui Asano
     orcid: 
+    affiliation: 6
+  - name: Kiyoko F. Aoki-Kinoshita
+    orcid: 0000-0002-6662-8015
     affiliation: 7
 affiliations:
-  - name: Soka University
+  - name: The Noguchi Institute
     index: 1
   - name: National Center for Biotechnolog Information (NCBI), PubChem
     index: 2
-  - name: The Noguchi Institute
-    index: 3
   - name: Georgetown University
+    index: 3
+  - name: Database Center for Life Science
     index: 4
   - name: Nagoya University
     index: 5
-  - name: Database Center for Life Science
-    index: 6
   - name: Swallow Design Studio Inc.
+    index: 6
+  - name: Soka University
     index: 7
 date: 31 Aug 2024
 cito-bibliography: paper.bib
@@ -59,15 +59,14 @@ group: Glyco
 git_url: https://github.com/biohackathon-japan/bh24-glyco-and-all-things-sweet/
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Kiyoko F. Aoki-Kinoshita \emph{et al.}
+authors_short: Issaku Yamada \emph{et al.}
 ---
 
 # 2024 BioHackathon Report: Glyco Group
 
 ## Introduction
 
-The 2024 BioHackathon for the Glyco group focused on advancing the integration of glycan data, improving software tools, and addressing key challenges in glycoscience research. This report summarizes the group's objectives, activities, and outcomes during the event.
-The structure of glycans lacks clear, distinguishable definitions, making it problematic to determine which structures should be considered as glycan data. We considered questions **“what is a ..”: “ .. glycan?”, “.. natural glycan?”, “.. carbohydrate?”** and **“what is the scope of GlyTouCan?”**
+The field of glycoscience is rapidly advancing in terms of data integration, software tool improvement, and addressing key research challenges. The activities of the Glyco group at the 2024 BioHackathon represent a significant step towards these goals. The structure of glycans has long posed challenges due to the lack of clear, distinguishable definitions, making it problematic to determine which structures should be considered as glycan data. This research tackles fundamental questions such as "What is a glycan?", "What is a natural glycan?", "What is a carbohydrate?", and also explores the scope of GlyTouCan (the International Glycan Structure Repository). The hackathon focused on five main objectives: refining glycan definition and classification, clarifying the scope of the GlyTouCan repository, collaborating with PubChem, developing and improving software tools, and community outreach and education. Particular emphasis was placed on using the WURCS framework to filter and classify glycans, employing tools like MolWURCS to detect and evaluate glycan structures in PubChem, and updating and improving existing glycan-related tools. These efforts aim to enhance the quality and consistency of data in the field of glycoscience and promote the use and understanding of glycan data in the broader scientific community. This paper reports in detail on the activities, outcomes, and future prospects of the Glyco group at the 2024 BioHackathon.
 
 ## Objectives
 
@@ -75,23 +74,22 @@ The main objectives of the Glyco group during the 2024 BioHackathon were:
 
 1. **Refinement of Glycan Definition and Classification:**
    - Establish clear criteria for defining what constitutes a "natural" glycan.
-   - Use the WURCS (Web3.0 Unique Representation of Carbohydrate Structures) framework to filter and classify glycans.
+   - Use the WURCS framework to filter and classify glycans.
 
-2. **Enhancement of GlyTouCan Repository:**
-   - Improve the accuracy and comprehensiveness of glycan entries in GlyTouCan by integrating new filtering tools and updating data structures.
+2. **Waht is scope of GlyTouCan Repository:**
+   - Scope of structures to be registered in GlyTouCan
 
 3. **Collaboration with PubChem:**
    - Use MolWURCS and other tools to detect glycan structures in PubChem and evaluate their relevance to glycoscience.
 
 4. **Software and Tool Development:**
-   - Update and improve existing glycan-related tools, including GlycanBuilder2, GlycanFormatConverter, MolWURCS, PDB2Glycan and TCarpRDF.
    - Implement new features in WURCSFilter for better glycan structure data filtering.
    - Extend and improve PyGly-based scripts for SNFG consistent matching of glycan structures.
    - GlyCosmos development of motifs including reducing end information
+   - Updates to existing glycan-related tools, including software for glycan structure drawing, glycan text format conversion, and WURCS to image generator
 
 5. **Community Outreach and Education?:**
-   - Develop clearer and more accessible documentation and flyers for tools like GlyCosmos.
-   - Engage with the broader scientific community to promote the use and understanding of glycan data.
+   - - Creating a clearer and more understandable flyer for the GlyCosmos glycoscience portal.
 
 ## Key Activities and Outcomes
 
@@ -101,7 +99,7 @@ The main objectives of the Glyco group during the 2024 BioHackathon were:
   - The group focused on defining "natural" glycans by matching, using the GNOme subsumption alignment algorithm, of monosaccharides and substituents to those from the SNFG lists. Common “natural” substituents, extracted from WURCS sequences, that were missing from the SNFG list were added, and a frequency analysis used to discover potential additional substituents for addition. 
   - Current analysis suggests a very long tail for the monosaccharides and substituents found in WURCS sequences derived from pubchem entries, with just 13% of such sequences passing the stringent SNFG-based test implemented by the PyGly script. For GlyTouCan WURCS sequences, about 60% pass this test. 
 
-Table 1. Substituents of …
+Table 1. The types and numbers of substituents contained in PubChem compounds
 
 | WURCS(MAP)               | Count | Category |                                 |
 |--------------------------|-------|----------|---------------------------------|
@@ -121,9 +119,11 @@ Table 1. Substituents of …
 | *OSC/3=O/3=O             | 2649  | Not SNFG | S-C-Me                          |
 | …             | …  | …  | …                          |
 
-Table 2. Monosaccharide of …
+MAP is a modification representation in WURCS notation
 
-| WURCS(Residue code) | Count | Category |                   |
+Table 2. The types and numbers of monosaccharides contained in PubChem compounds
+
+| WURCS(ResidueCode) | Count | Category |                   |
 |---------------------|-------|----------|-------------------|
 | [a2122h-1x_1-5]     | 59719 | SNFG:    | Glc               |
 | [a2112h-1x_1-5]     | 13828 | SNFG:    | Gal               |
@@ -141,15 +141,16 @@ Table 2. Monosaccharide of …
 | [a1211h-1b_1-5]     | 2903  | Good:    | b-L-Glucopyranose |
 | …     | …  | …    | …  |
 
+ResidueCode is representation of a monosaccharide core structure in WURCS notation
+
 - **WURCSFilter Implementation:**
   - A significant effort was made to enhance WURCSFilter, enabling it to better handle various glycan structures and substituents.
 
-### Enhancement of GlyTouCan
+### Scope of structures to be registered in GlyTouCan
 
-- **Data Integration and Update:**
-  - Updated GlyTouCan data with new WURCS versions and implemented stricter filtering criteria.
-  - Focused on ensuring that only well-defined glycans, based on new criteria, are included in the database.
-
+- **Data Integration:**
+  - Discussed the "New Standards for Registering Glycan Structures" to be proposed to the GlyTouCan Scientific Advisory Board and prepared the document.
+ 
 ### Collaboration with PubChem
 
 - **WURCS Analysis:**
@@ -159,23 +160,23 @@ Table 2. Monosaccharide of …
 ### Software and Tool Development
 
 - **Tool Updates:**
-  - GlycanBuilder2, GlycanFormatConverter, MolWURCS, PDB2Glycan and TCarpRDF were updated libs.
-  - WURCSFilter was enhanced to support more flexible filtering based on user-defined criteria.
+  - WURCSFilter   (PatternMatching library of WURCS string) was enhanced to support more flexible filtering based on user-defined criteria.
   - The SNFG glycan classification script from the GlyGen-Glycan-Data github project (includes PyGly and GNOme code-bases) was improved in a number of ways:
     - The script was extended to provide more information about why a specific monosaccharide or substituent was considered consistent with SNFG or not, including whether attached substituents or the monosaccharide core was failing to match with SNFG lists.
     - The set of supported substituents was expanded, first to include all SNFG substituents, and then with the addition of “natural” substituents missing from the SNFG list.
      - The script was extended to check “floating” substituents in compositions, and bridging substituents in glycosidic links.
      - The script was extended to verify that all SNFG monosaccharides and substituents, as WURCS sequences, could be parsed by the internal WURCS monosaccharide parser, reducing the possibility of false negatives. 
-     - 
+     - Updated some functions in PyGly/scripts (allimg.sh), a Java program + shell script for generating images from GlycanBuilder2-based WURCS.
+    - In conjunction with the update of WURCSFramework, the basic library that processes WURCS, several related software libraries are currently being updated. This work in progress includes GlycanBuilder2, GlycanFormatConverter, MolWURCS, PDB2Glycan, and TCarpRDF.
+     - Updated the GlycanBuilder2 library in wurcs2pic (https://gitlab.com/glycoinfo/wurcs2pic), a software that generates SNFG images from WURCS.
+    - When a glycan structure contains multiple motifs, some smaller motifs may be nested within larger ones. In such instances, the larger motif is selected as the representative motif for that glycan structure. In this development, we refined the organization of motif information by considering details such as whether these smaller and larger motifs are 'located only at the reducing end,' ensuring a more accurate treatment of the motif data.
 
-- **New Features:**
-  - Introduced new filtering options to handle substituents and stereochemistry more effectively.
 
 ### Community Outreach and Education
 
 - **Documentation and Flyers:**
-  - Worked on improving the clarity and accessibility of documentation for tools like GlyCosmos.
-  - Engaged with the scientific community through the creation of educational materials.
+  - In collaboration with the broader scientific community, we created an easy-to-understand flyer to promote the use and understanding of glycan data. This effort aims to make glycan-related information more accessible to researchers and scientists across various fields, potentially fostering increased engagement with and application of glycan data in scientific studies and projects.
+
 
 ## Future Work
 
@@ -186,18 +187,27 @@ Table 2. Monosaccharide of …
     - The straightforward removal of SNFG substituents prior to checking the monosaccharide against the SNFG monosaccharide list may be too aggressive, since the full SNFG substituents list may contain substituents found on SNFG monosaccharides. Furthermore, removing all substituents from monosaccharides of unknown status can create a monosaccharide core that is unrepresented in the SNFG list, even though a form of the monosaccharide with one or more substituents remaining is in the SNFG list. Doing this properly will require the combinatorial enumeration of the substituents that should remain with the core monosaccharide 
     - The elucidation of why specific WURCS sequences, and which portion of those sequences - core monosaccharide residue or substituent, are considered consistent with the SNFG sets needs to be thoughtfully improved.
 
-3. **Expansion of GlyTouCan Database:**
+3. **Expansion of GlyTouCan Repository:**
    - Integrate additional glycan data from external sources and continue to improve the accuracy of existing entries.
 
-4. **Development of Educational Resources:**
+4. **Software and Tool Development:**
+   - To improve existing tools and develop new ones that can be utilized in glycoscience research and for integration with other fields.
+
+5. **Development of Educational Resources:**
    - Expand the outreach efforts by developing more comprehensive educational materials and engaging with a broader audience.
 
 ## Acknowledgements
 
 The Glyco group extends its gratitude to all participants and collaborators who contributed to the success of the 2024 BioHackathon.
 
+## Abbreviation
+GNOme: Glycan Naming and Subsumption Ontology
+GlyCosmos: GlyCosmos Glycoscience Portal
+GlyTouCan: International Glycan Structure Repository
+SNFG: Symbol Nomenclature for Glycans
+WURCS: Web3.0 Unique Representation of Carbohydrate Structures
+
 
 ## References
 
-1. 
-
+1.
