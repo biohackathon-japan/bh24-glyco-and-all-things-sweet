@@ -199,14 +199,5 @@ The Glyco group extends its gratitude to all participants and collaborators who 
 
 ## References
 
-1. Fujita, Akihiro, Nobuyuki P Aoki, Daisuke Shinmachi, Masaaki Matsubara, Shinichiro Tsuchiya, Masaaki Shiota, Tamiko Ono, Issaku Yamada, and Kiyoko F Aoki-Kinoshita. "The international glycan repository GlyTouCan version 3.0." *Nucleic Acids Research* 49, no. D1 (2021): D1529-D1533. doi: [10.1093/nar/gkaa947](https://doi.org/10.1093/nar/gkaa947).
-
-2. Kim, Sunghwan, Jie Chen, Tiejun Cheng, Asta Gindulyte, Jia He, Siqian He, Qingliang Li, Benjamin A Shoemaker, Paul A Thiessen, Bo Yu, et al. "PubChem 2023 update." *Nucleic Acids Research* 51, no. D1 (2023): D1373-D1380. doi: [10.1093/nar/gkac956](https://doi.org/10.1093/nar/gkac956).
-
-3. Yamada, Issaku, Masaaki Shiota, Daisuke Shinmachi, Tamiko Ono, Shinichiro Tsuchiya, Masae Hosoda, Akihiro Fujita, Nobuyuki P Aoki, Yu Watanabe, Noriaki Fujita, et al. "The GlyCosmos Portal: a unified and comprehensive web resource for the glycosciences." *Nature Methods* 17, no. 7 (2020): 649-650. doi: [10.1038/s41592-020-0879-8](https://doi.org/10.1038/s41592-020-0879-8).
-
-4. Matsubara, Masaaki, Kiyoko F Aoki-Kinoshita, Nobuyuki P Aoki, Issaku Yamada, and Hisashi Narimatsu. "WURCS 2.0 update to encapsulate ambiguous carbohydrate structures." *Journal of Chemical Information and Modeling* 57, no. 4 (2017): 632-637. doi: [10.1021/acs.jcim.6b00650](https://doi.org/10.1021/acs.jcim.6b00650).
-
-5.  "Toward Integration of Glycan Chemical Databases: An Algorithm and Software Tool for Extracting Sugars from Chemical Structures” *Analytical and Bioanalytical Chemistry* doi: [https://doi.org/10.1007/s00216-024-05508-1](https://https://doi.org/10.1007/s00216-024-05508-1).
-
+1. 
 
