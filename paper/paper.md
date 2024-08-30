@@ -171,12 +171,10 @@ ResidueCode is representation of a monosaccharide core structure in WURCS notati
      - Updated the GlycanBuilder2 library in wurcs2pic (https://gitlab.com/glycoinfo/wurcs2pic), a software that generates SNFG images from WURCS.
     - When a glycan structure contains multiple motifs, some smaller motifs may be nested within larger ones. In such instances, the larger motif is selected as the representative motif for that glycan structure. In this development, we refined the organization of motif information by considering details such as whether these smaller and larger motifs are 'located only at the reducing end,' ensuring a more accurate treatment of the motif data.
 
-
 ### Community Outreach and Education
 
 - **Documentation and Flyers:**
   - In collaboration with the broader scientific community, we created an easy-to-understand flyer to promote the use and understanding of glycan data. This effort aims to make glycan-related information more accessible to researchers and scientists across various fields, potentially fostering increased engagement with and application of glycan data in scientific studies and projects.
-
 
 ## Future Work
 
@@ -211,7 +209,6 @@ The Glyco group extends its gratitude to all participants and collaborators who 
 - SNFG: Symbol Nomenclature for Glycans
 
 - WURCS: Web3.0 Unique Representation of Carbohydrate Structures
-
 
 ## References
 
