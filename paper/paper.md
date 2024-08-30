@@ -215,4 +215,3 @@ The Glyco group extends its gratitude to all participants and collaborators who 
 
 ## References
 
-1.
