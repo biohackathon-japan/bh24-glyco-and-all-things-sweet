@@ -89,7 +89,7 @@ The main objectives of the Glyco group during the 2024 BioHackathon were:
    - Updates to existing glycan-related tools, including software for glycan structure drawing, glycan text format conversion, and WURCS to image generator
 
 5. **Community Outreach and Education?:**
-   - - Creating a clearer and more understandable flyer for the GlyCosmos glycoscience portal.
+   - Creating a clearer and more understandable flyer for the GlyCosmos glycoscience portal.
 
 ## Key Activities and Outcomes
 
@@ -119,7 +119,7 @@ Table 1. The types and numbers of substituents contained in PubChem compounds
 | *OSC/3=O/3=O             | 2649  | Not SNFG | S-C-Me                          |
 | …             | …  | …  | …                          |
 
-MAP is a modification representation in WURCS notation
+  - MAP is a modification representation in WURCS notation
 
 Table 2. The types and numbers of monosaccharides contained in PubChem compounds
 
@@ -141,7 +141,7 @@ Table 2. The types and numbers of monosaccharides contained in PubChem compounds
 | [a1211h-1b_1-5]     | 2903  | Good:    | b-L-Glucopyranose |
 | …     | …  | …    | …  |
 
-ResidueCode is representation of a monosaccharide core structure in WURCS notation
+  - ResidueCode is representation of a monosaccharide core structure in WURCS notation
 
 - **WURCSFilter Implementation:**
   - A significant effort was made to enhance WURCSFilter, enabling it to better handle various glycan structures and substituents.
@@ -164,12 +164,12 @@ ResidueCode is representation of a monosaccharide core structure in WURCS notati
   - The SNFG glycan classification script from the GlyGen-Glycan-Data github project (includes PyGly and GNOme code-bases) was improved in a number of ways:
     - The script was extended to provide more information about why a specific monosaccharide or substituent was considered consistent with SNFG or not, including whether attached substituents or the monosaccharide core was failing to match with SNFG lists.
     - The set of supported substituents was expanded, first to include all SNFG substituents, and then with the addition of “natural” substituents missing from the SNFG list.
-     - The script was extended to check “floating” substituents in compositions, and bridging substituents in glycosidic links.
-     - The script was extended to verify that all SNFG monosaccharides and substituents, as WURCS sequences, could be parsed by the internal WURCS monosaccharide parser, reducing the possibility of false negatives. 
-     - Updated some functions in PyGly/scripts (allimg.sh), a Java program + shell script for generating images from GlycanBuilder2-based WURCS.
-    - In conjunction with the update of WURCSFramework, the basic library that processes WURCS, several related software libraries are currently being updated. This work in progress includes GlycanBuilder2, GlycanFormatConverter, MolWURCS, PDB2Glycan, and TCarpRDF.
-     - Updated the GlycanBuilder2 library in wurcs2pic (https://gitlab.com/glycoinfo/wurcs2pic), a software that generates SNFG images from WURCS.
-    - When a glycan structure contains multiple motifs, some smaller motifs may be nested within larger ones. In such instances, the larger motif is selected as the representative motif for that glycan structure. In this development, we refined the organization of motif information by considering details such as whether these smaller and larger motifs are 'located only at the reducing end,' ensuring a more accurate treatment of the motif data.
+    - The script was extended to check “floating” substituents in compositions, and bridging substituents in glycosidic links.
+    - The script was extended to verify that all SNFG monosaccharides and substituents, as WURCS sequences, could be parsed by the internal WURCS monosaccharide parser, reducing the possibility of false negatives. 
+    - Updated some functions in PyGly/scripts (allimg.sh), a Java program + shell script for generating images from GlycanBuilder2-based WURCS.
+  - In conjunction with the update of WURCSFramework, the basic library that processes WURCS, several related software libraries are currently being updated. This work in progress includes GlycanBuilder2, GlycanFormatConverter, MolWURCS, PDB2Glycan, and TCarpRDF.
+  - Updated the GlycanBuilder2 library in wurcs2pic (https://gitlab.com/glycoinfo/wurcs2pic), a software that generates SNFG images from WURCS.
+  - When a glycan structure contains multiple motifs, some smaller motifs may be nested within larger ones. In such instances, the larger motif is selected as the representative motif for that glycan structure. In this development, we refined the organization of motif information by considering details such as whether these smaller and larger motifs are 'located only at the reducing end,' ensuring a more accurate treatment of the motif data.
 
 ### Community Outreach and Education
 
