@@ -201,11 +201,16 @@ ResidueCode is representation of a monosaccharide core structure in WURCS notati
 The Glyco group extends its gratitude to all participants and collaborators who contributed to the success of the 2024 BioHackathon.
 
 ## Abbreviation
-GNOme: Glycan Naming and Subsumption Ontology
-GlyCosmos: GlyCosmos Glycoscience Portal
-GlyTouCan: International Glycan Structure Repository
-SNFG: Symbol Nomenclature for Glycans
-WURCS: Web3.0 Unique Representation of Carbohydrate Structures
+
+- GNOme: Glycan Naming and Subsumption Ontology
+
+- GlyCosmos: GlyCosmos Glycoscience Portal
+
+- GlyTouCan: International Glycan Structure Repository
+
+- SNFG: Symbol Nomenclature for Glycans
+
+- WURCS: Web3.0 Unique Representation of Carbohydrate Structures
 
 
 ## References
