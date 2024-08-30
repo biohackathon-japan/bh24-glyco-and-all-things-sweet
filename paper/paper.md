@@ -212,3 +212,16 @@ The Glyco group extends its gratitude to all participants and collaborators who 
 
 ## References
 
+1. Fujita, A., Aoki, N.P., Shinmachi, D., Matsubara, M., Tsuchiya, S., Shiota, M., Ono, T., Yamada, I., and Aoki-Kinoshita, K.F. (2021) 'The international glycan repository GlyTouCan version 3.0', *Nucleic Acids Research*, 49(D1), pp. D1529–D1533. doi: [10.1093/nar/gkaa947](https://doi.org/10.1093/nar/gkaa947).
+
+2. Kim, S., Chen, J., Cheng, T., Gindulyte, A., He, J., He, S., Li, Q., Shoemaker, B.A., Thiessen, P.A., Yu, B., et al. (2023) 'PubChem 2023 update', *Nucleic Acids Research*, 51(D1), pp. D1373–D1380. doi: [10.1093/nar/gkac956](https://doi.org/10.1093/nar/gkac956).
+
+3. Yamada, I., Shiota, M., Shinmachi, D., Ono, T., Tsuchiya, S., Hosoda, M., Fujita, A., Aoki, N.P., Watanabe, Y., Fujita, N., et al. (2020) 'The GlyCosmos Portal: a unified and comprehensive web resource for the glycosciences', *Nature Methods*, 17(7), pp. 649–650. doi: [10.1038/s41592-020-0879-8](https://doi.org/10.1038/s41592-020-0879-8).
+
+4. Matsubara, M., Aoki-Kinoshita, K.F., Aoki, N.P., Yamada, I., and Narimatsu, H. (2017) 'WURCS 2.0 update to encapsulate ambiguous carbohydrate structures', *Journal of Chemical Information and Modeling*, 57(4), pp. 632–637. doi: [10.1021/acs.jcim.6b00650](https://doi.org/10.1021/acs.jcim.6b00650).
+
+5. Matsubara, M., Bolton, E.E., Aoki-Kinoshita, K.F., and Yamada, I. (2024) 'WURCS 2.0 update to encapsulate ambiguous carbohydrate structures', *Analytical and Bioanalytical Chemistry*. Springer Science and Business Media Deutschland GmbH. doi: [10.1007/s00216-024-05508-1](https://doi.org/10.1007/s00216-024-05508-1).
+
+6. Varki, A., Cummings, R.D., Aebi, M., Packer, N.H., Seeberger, P.H., Esko, J.D., Stanley, P., Hart, G., Darvill, A., Kinoshita, T., Prestegard, J.H., Schnaar, R.L., Freeze, H.H., Marth, J.D., Bertozzi, C.R., Etzler, M., Frank, M., Vliegenthart, J.F.G., Lütteke, T., Perez, S., Bolton, E., Rudd, P., Paulson, J., Kanehisa, M., Toukach, P., Aoki-Kinoshita, K.F., Dell, A., Narimatsu, H., York, W., Taniguchi, N., and Kornfeld, S. (2015) 'Symbol Nomenclature for Graphical Representations of Glycans', *Glycobiology*, 25(12), pp. 1323-1324. doi: [10.1093/glycob/cwv091](https://doi.org/10.1093/glycob/cwv091).
+
+7. York, W.S., Mazumder, R., Ranzinger, R., Edwards, N., Kahsay, R., Aoki-Kinoshita, K.F., Campbell, M.P., Cummings, R.D., Feizi, T., Martin, M., Natale, D.A., Packer, N.A., Woods, R.J., Agarwal, G., Arpinar, S., Bhat, S., Blake, J., Castro, L.J.G., Fochtman, B., Gildersleeve, J., Goldman, R., Holmes, X., Jain, V., Kulkarni, S., Mahadik, R., Mehta, A., Mousavi, R., Nakarakommula, S., Navelkar, R., Pattabiraman, N., Pierce, M., Ross, K., Vasudev, P., Vora, J., Williamson, T., and Zhang, W. (2020) 'GlyGen: Computational and Informatics Resources for Glycoscience', *Glycobiology*, 30(2), pp. 72-73. doi: [10.1093/glycob/cwz080](https://doi.org/10.1093/glycob/cwz080).
